@@ -1,0 +1,154 @@
+/* Basic reset and styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+bac
+   
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    <img src="bg.jpeg" alt="" class="bg-image">
+ color: #333;
+
+ .floating-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ animation: float 2s ease-in-out infinite;
+
+/* Target the GIF by its class */
+.chen {
+    width: 50px; /* Set the desired width */
+    height:50px; /* Maintain the aspect ratio */
+  }
+
+/* Floating Button */
+.floating-button {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #0C9;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    font-size: 22px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .floating-button:hover {
+    background-color: #06C;
+  }
+
+
+
+
+}
+
+.floating-button img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+
+
+}
+
+
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+.main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.hero {
+    background-image: url('bg.jpeg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 3rem;
+}
+
+.options {
+    margin-top: 3rem;
+}
+
+.option {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.option h3 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.option p {
+    color: #666;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
